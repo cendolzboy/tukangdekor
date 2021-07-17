@@ -17,6 +17,8 @@
 
 		<!-- styles -->
 		<link href="assets/css/plugins.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 	</head>
 	<body class="preloader cursor-anim-enable landing-page">
@@ -25,13 +27,7 @@
 				<i class="fab fa-whatsapp my-float"></i>
 			</div>
 		</a>
-		<!-- preloader-loading start -->
-		<div class="preloader__logoload-box">
-			<img class="preloader__logo" src="assets/images/logo/logo-white.png" alt="logo">
-			<div class="preloader__pulse"></div>
-		</div><!-- preloader-loading end -->
-
-		 
+		
 		<!-- header start -->
 		<header class="fixed-header">
 			<!-- logo start -->
@@ -67,6 +63,9 @@
 				</li>
 				<li class="landing-nav__btn">
 					<a href="projects.html" class="landing-nav__inner js-smooth-scroll js-pointer-large" data-text="Projects">Projects</a>
+				</li>
+				<li class="landing-nav__btn">
+					<a href="faq.html" class="landing-nav__inner js-smooth-scroll js-pointer-large" data-text="FAQ">FAQ</a>
 				</li>
 			</ul>
 		</nav><!-- landing-nav end -->
@@ -104,14 +103,21 @@
 							<span class="nav-btn__inner" data-text="Project">Projects</span>
 						</a>
 					</li><!-- nav-btn-box end -->
+
+					<!-- nav-btn-box start -->
+					<li class="nav-btn-box">
+						<a href="faq.html" class="nav-btn large js-pointer-large js-smooth-scroll js-landing-close">
+							<span class="nav-btn__inner" data-text="FAQ">FAQ</span>
+						</a>
+					</li><!-- nav-btn-box end -->
 				</ul><!-- menu-box end -->
 			</div><!-- lines-container end -->
 		</nav><!-- navigation end -->
 
 		<!-- main start -->
-		<main class="js-animsition-overlay" data-animsition-overlay="true">
+		<main class="js-animsition-overlay" data-animsition-overlay="true" data-midnight="black">
 			<section id="up" class="pos-rel bg-img-cover" style="
-			background-image:url(assets/images/footer/jasa-desain-interior-kitchen-set-jabodetabek-murah-6-1.jpg.webp), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); background-blend-mode: overlay;">
+			background-image:url(assets/images/footer/web.jpg); background-blend-mode: overlay;color:black;">
 				<!-- bg-overlay -->
 				<div class="bg-overlay-black bg-overlay-black_02"></div>
 				<!-- pos-rel start -->
@@ -119,7 +125,7 @@
 					<!-- container start -->
 					<div class="container small padding-top-bottom-120 after-preloader-anim">
 						<!-- title start -->
-						<h2 class="headline-m">
+						<h2 class="headline-m" style="font-weight:500;">
 							<span class="d-block hidden-box">
 								<span class="anim-slide">Buat Ruangmu</span>
 							</span>
@@ -127,13 +133,13 @@
 								<span class="anim-slide tr-delay-01">Senyaman Mungkin</span>
 							</span>
 						</h2><!-- title end -->
-						<p class="subhead-xs margin-top-20 anim-fade tr-delay-04">Make a beautiful and modern architecture that you will be proud of</p>
+						<p class="subhead-xs margin-top-20 anim-fade tr-delay-04" style="font-weight:500;">Make a beautiful and modern architecture that you will be proud of</p>
 						<div class="margin-top-30">
 							<div class="anim-fade tr-delay-05">
-								<a style="background-color: black;" href="https://api.whatsapp.com/send?phone=6285156599828&text=Halo%20Tukang%20Dekor%2C%20saya%20ingin%20info%20promo%20dan%20konsultasi%20perihal%20Furniture%20%2F%20Kitcen%20Set%20Terima%20Kasih" target="_blank" class="border-btn js-pointer-large">
-									<span class="border-btn__inner">KONSULTASI GRATIS</span>
-									<span class="border-btn__lines-1"></span>
-									<span class="border-btn__lines-2"></span>
+								<a href="https://api.whatsapp.com/send?phone=6285156599828&text=Halo%20Tukang%20Dekor%2C%20saya%20ingin%20info%20promo%20dan%20konsultasi%20perihal%20Furniture%20%2F%20Kitcen%20Set%20Terima%20Kasih" target="_blank" class="border-btn js-pointer-large">
+									<span class="border-btn__inner" style="color: black;">KONSULTASI GRATIS</span>
+									<span class="border-btn__lines-1" style="color: black;"></span>
+									<span class="border-btn__lines-2" style="color: black;"></span>
 								</a>
 							</div>
 						</div>
@@ -309,53 +315,68 @@
 				<!-- pos-rel start -->
 				<div class="pos-rel">
 					<!-- container start -->
-					<div class="container small padding-top-bottom-80 form-box">
+					<div class="container padding-top-bottom-80 form-box">
 						<h2 class="headline-m text-center js-scrollanim">
 							<span class="hidden-box d-block">
 								<span class="anim-slide" style="font-weight: bold;">Contact Us</span>
 							</span>
 						</h2>
-						<!-- flex-container start -->
-						<form style="margin-top: 80px;box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-						transition: 0.3s;
-						padding: 50px 50px 50px 50px;" >
-							<div class="group">      
-							  <input type="text" required style="background: none;">
-							  <span class="highlight"></span>
-							  <span class="bar"></span>
-							  <label>Name</label>
+						
+						<div class="row">
+							<div class="col-sm-6" style="margin-top: 40px;">
+								<h4>Ada Rencana Pembongkaran?</h4>
+								<div>Ada rencana melakukan pembongkaran? Atau ingin berkonsultasi perihal pembongkaran?</div>
+								<br/>
+								<div>Hubungi kami melalui formulir yang telah kami sediakan, atau dengan menghubungi kami secara langsung melalui no yang tertera dibawah ini, kami selalu siap melayani Anda kapanpun.</div>
+								<br/>
+								<div>Contact Us:</div>
+								<br/>
+								<div>Phone: 6285156599828</div>
+								<div>Mail : cs@tukangdekor.id</div>
 							</div>
-							  
-							<div class="group">      
-							  <input type="text" required style="background: none;">
-							  <span class="highlight"></span>
-							  <span class="bar"></span>
-							  <label>Email</label>
+							<div class="col-sm-6" style="margin-top: 40px;">
+								<!-- flex-container start -->
+								<form style="box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+								transition: 0.3s;
+								padding: 50px 50px 50px 50px;" >
+									<div class="group">      
+									<input type="text" required style="background: none;">
+									<span class="highlight"></span>
+									<span class="bar"></span>
+									<label>Name</label>
+									</div>
+									
+									<div class="group">      
+									<input type="text" required style="background: none;">
+									<span class="highlight"></span>
+									<span class="bar"></span>
+									<label>Email</label>
+									</div>
+
+									<div class="group">      
+										<input type="text" required style="background: none;">
+										<span class="highlight"></span>
+										<span class="bar"></span>
+										<label>Address</label>
+									</div>
+
+									<div class="group">      
+										<input type="text" required style="background: none;">
+										<span class="highlight"></span>
+										<span class="bar"></span>
+										<label>Tell us about your decoration insight!</label>
+									</div>
+									<div class="twelve-columns text-center padding-top-20">
+										<button id="send" class="border-btn js-pointer-large">
+											<span class="border-btn__inner" style="background-color: black;">submit</span>
+											<span class="btn-wait">Wait</span>
+											<span class="border-btn__lines-1"></span>
+											<span class="border-btn__lines-2"></span>
+										</button>
+									</div><!-- column end -->
+								</form>
 							</div>
-
-							<div class="group">      
-								<input type="text" required style="background: none;">
-								<span class="highlight"></span>
-								<span class="bar"></span>
-								<label>Address</label>
-							  </div>
-
-							  <div class="group">      
-								<input type="text" required style="background: none;">
-								<span class="highlight"></span>
-								<span class="bar"></span>
-								<label>Tell us about your decoration insight!</label>
-							  </div>
-							<div class="twelve-columns text-center padding-top-20">
-								<button id="send" class="border-btn js-pointer-large">
-									<span class="border-btn__inner" style="background-color: black;">submit</span>
-									<span class="btn-wait">Wait</span>
-									<span class="border-btn__lines-1"></span>
-									<span class="border-btn__lines-2"></span>
-								</button>
-							</div><!-- column end -->
-						  </form>
-
+						</div>
 					</div><!-- container end -->
 
 					<!-- alert start -->
@@ -459,7 +480,7 @@
 		</main><!-- main end -->
 
 		<footer id="up" class="pos-rel bg-img-cover" style="
-			height: 500px;background-image:url(assets/images/footer/jasa-desain-interior-kitchen-set-jabodetabek-murah-6-1.jpg.webp), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); background-blend-mode: overlay;">
+			height: 500px;background-image:url(assets/images/footer/web.jpg); background-blend-mode: overlay;color:black;">
 			<!-- bg-overlay -->
 			<div class="bg-overlay-black bg-overlay-black_02"></div>
 			<!-- pos-rel start -->
@@ -467,7 +488,7 @@
 				<!-- container start -->
 				<div class="container small padding-top-bottom-120 after-preloader-anim">
 					<!-- title start -->
-					<h2 class="headline-m">
+					<h2 class="headline-m" style="font-weight:500;">
 						<span class="d-block hidden-box">
 							<span class="anim-slide">Buat Ruangmu</span>
 						</span>
@@ -475,13 +496,13 @@
 							<span class="anim-slide tr-delay-01">Senyaman Mungkin</span>
 						</span>
 					</h2><!-- title end -->
-					<p class="subhead-xs margin-top-20 anim-fade tr-delay-04">Make a beautiful and modern architecture that you will be proud of</p>
+					<p class="subhead-xs margin-top-20 anim-fade tr-delay-04" style="font-weight:500;">Make a beautiful and modern architecture that you will be proud of</p>
 					<div class="margin-top-30">
 						<div class="anim-fade tr-delay-05">
-							<a style="background-color: black;" href="https://api.whatsapp.com/send?phone=6285156599828&text=Halo%20Tukang%20Dekor%2C%20saya%20ingin%20info%20promo%20dan%20konsultasi%20perihal%20Furniture%20%2F%20Kitcen%20Set%20Terima%20Kasih" target="_blank" class="border-btn js-pointer-large">
-								<span class="border-btn__inner">KONSULTASI GRATIS</span>
-								<span class="border-btn__lines-1"></span>
-								<span class="border-btn__lines-2"></span>
+							<a href="https://api.whatsapp.com/send?phone=6285156599828&text=Halo%20Tukang%20Dekor%2C%20saya%20ingin%20info%20promo%20dan%20konsultasi%20perihal%20Furniture%20%2F%20Kitcen%20Set%20Terima%20Kasih" target="_blank" class="border-btn js-pointer-large">
+								<span class="border-btn__inner" style="color: black;">KONSULTASI GRATIS</span>
+								<span class="border-btn__lines-1" style="color: black;"></span>
+								<span class="border-btn__lines-2" style="color: black;"></span>
 							</a>
 						</div>
 					</div>
@@ -491,6 +512,7 @@
 
 		<!-- scripts -->
 		<script src="assets/js/plugins.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script src="assets/js/main.js"></script>
 	</body>
 </html>
